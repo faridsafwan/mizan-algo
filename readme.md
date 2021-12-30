@@ -7,3 +7,9 @@ Note:
 - This program has been pre-built. If there is any need to build upon new changes, run: 
     ``` npm run build ```.
 - If npm not working, try yarn
+
+## What command output looks like
+
+![alt text](https://github.com/faridsafwan/mizan-algo/blob/master/assets/test.png)
+
+![alt text](https://github.com/faridsafwan/mizan-algo/blob/master/assets/node.png)
