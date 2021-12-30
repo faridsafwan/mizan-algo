@@ -6,3 +6,4 @@
 Note:
 - This program has been pre-built. If there is any need to build upon new changes, run: 
     ``` npm run build ```.
+- If npm not working, try yarn
