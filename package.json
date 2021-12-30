@@ -1,0 +1,29 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processargv.js",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/processargv.js",
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register",
+    "build": "babel src --out-dir ./dist --source-maps",
+    "serve": "node ./dist/processargv.js",
+    "debug": "node --inspect-brk ./dist/processargv.js"
+  },
+  "author": "Mohammad Norhamizan",
+  "license": "ISC"
+}
